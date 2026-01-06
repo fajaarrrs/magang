@@ -20,12 +20,12 @@ body {
     color: white;
     text-align: center;
     padding: 80px 20px;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     border: 5px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 20px;
@@ -34,9 +34,8 @@ body {
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    letter-spacing: -1px;
 }
 
 .badge {
@@ -49,35 +48,35 @@ body {
 /* Layout */
 .container {
     max-width: 800px;
-    margin: -40px auto 40px;
+    margin: -30px auto 40px;
     padding: 0 20px;
 }
 
 .section {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #334155;
+    color: #475569;
 }
 
 .card {
     background: white;
-    padding: 30px;
+    padding: 25px;
     border-radius: 16px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 /* Skills Grid */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
 }
 
 .skill-item {
@@ -86,27 +85,71 @@ h2 {
     text-align: center;
     border-radius: 12px;
     font-weight: 600;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease;
     border: 1px solid #e2e8f0;
+    transition: 0.3s;
 }
 
 .skill-item:hover {
     transform: translateY(-5px);
+    border-color: #2563eb;
     color: #2563eb;
 }
 
 .skill-item i {
     display: block;
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     color: #2563eb;
 }
 
-/* Contact Link */
+/* Project Card Styles */
+.project-card {
+    border-left: 6px solid #2563eb;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.01);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    color: #1e40af;
+}
+
+.project-desc {
+    font-size: 0.95rem;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.btn-playstore {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.btn-playstore:hover {
+    background: #333;
+}
+
+.btn-playstore i {
+    color: #34a853; /* Warna hijau Google Play */
+}
+
+/* Contact Styles */
 .contact-grid {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
     justify-content: center;
 }
 
@@ -114,10 +157,17 @@ h2 {
     text-decoration: none;
     color: white;
     background: #2563eb;
-    padding: 12px 25px;
+    padding: 12px 20px;
     border-radius: 10px;
     font-weight: 600;
+    flex: 1;
+    text-align: center;
+    min-width: 150px;
     transition: opacity 0.3s;
+}
+
+.contact-link.github {
+    background: #333;
 }
 
 .contact-link:hover {
@@ -126,7 +176,7 @@ h2 {
 
 footer {
     text-align: center;
-    padding: 40px;
-    color: #64748b;
-    font-size: 0.9rem;
+    padding: 30px;
+    color: #94a3b8;
+    font-size: 0.85rem;
 }
