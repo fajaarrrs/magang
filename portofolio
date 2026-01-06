@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Muhammad Fajar Siddiq</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1>Muhammad Fajar Siddiq</h1>
+    <p>Mahasiswa Teknik Informatika | Magang IT</p>
+</header>
+
+<section class="container">
+    <h2>Tentang Saya</h2>
+    <div class="card">
+        <p>
+            Saya adalah mahasiswa Teknik Informatika yang sedang menjalani program magang
+            di bidang IT dan tertarik pada pengembangan aplikasi dan sistem informasi.
+        </p>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Keahlian</h2>
+    <div class="card">
+        <ul>
+            <li>HTML, CSS, JavaScript (Dasar)</li>
+            <li>PHP & CodeIgniter 4</li>
+            <li>Flutter (Dasar)</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Kontak</h2>
+    <div class="card contact">
+        <p>Email: 
+            <a href="mailto:muhammadfajarsiddiq93@gmail.com">
+                muhammadfajarsiddiq93@gmail.com
+            </a>
+        </p>
+        <p>GitHub: 
+            <a href="https://github.com/fajaarrrs" target="_blank">
+                github.com/fajaarrrs
+            </a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Muhammad Fajar Siddiq</p>
+</footer>
+
+</body>
+</html>
