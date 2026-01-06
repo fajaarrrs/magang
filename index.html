@@ -4,55 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio | Muhammad Fajar Siddiq</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="hero">
-    <h1>Muhammad Fajar Siddiq</h1>
-    <p>Mahasiswa Teknik Informatika | Magang IT</p>
+    <div class="hero-content">
+        <img src="foto-profil.jpg" alt="Muhammad Fajar Siddiq" class="profile-img">
+        <h1>Muhammad Fajar Siddiq</h1>
+        <p>Mahasiswa Teknik Informatika | <span class="badge">IT Intern</span></p>
+    </div>
 </header>
 
-<section class="container">
-    <h2>Tentang Saya</h2>
-    <div class="card">
-        <p>
-            Saya adalah mahasiswa Teknik Informatika yang sedang menjalani program magang
-            di bidang IT dan tertarik pada pengembangan aplikasi dan sistem informasi.
-        </p>
-    </div>
-</section>
+<main class="container">
+    <section class="section">
+        <h2><i class="fas fa-user"></i> Tentang Saya</h2>
+        <div class="card">
+            <p>
+                Halo! Saya adalah mahasiswa Teknik Informatika yang bersemangat dalam dunia teknologi. 
+                Saat ini saya sedang menjalani program magang IT, di mana saya fokus mengasah kemampuan 
+                dalam pengembangan aplikasi dan sistem informasi yang efisien.
+            </p>
+        </div>
+    </section>
 
-<section class="container">
-    <h2>Keahlian</h2>
-    <div class="card">
-        <ul>
-            <li>HTML, CSS, JavaScript (Dasar)</li>
-            <li>PHP & CodeIgniter 4</li>
-            <li>Flutter (Dasar)</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </div>
-</section>
+    <section class="section">
+        <h2><i class="fas fa-code"></i> Keahlian</h2>
+        <div class="skills-grid">
+            <div class="skill-item"><i class="fab fa-html5"></i> HTML & CSS</div>
+            <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skill-item"><i class="fas fa-fire"></i> CodeIgniter 4</div>
+            <div class="skill-item"><i class="fas fa-mobile-alt"></i> Flutter</div>
+            <div class="skill-item"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+        </div>
+    </section>
 
-<section class="container">
-    <h2>Kontak</h2>
-    <div class="card contact">
-        <p>Email: 
-            <a href="mailto:muhammadfajarsiddiq93@gmail.com">
-                muhammadfajarsiddiq93@gmail.com
+    <section class="section">
+        <h2><i class="fas fa-envelope"></i> Kontak</h2>
+        <div class="card contact-grid">
+            <a href="mailto:muhammadfajarsiddiq93@gmail.com" class="contact-link">
+                <i class="fas fa-envelope"></i> Email Saya
             </a>
-        </p>
-        <p>GitHub: 
-            <a href="https://github.com/fajaarrrs" target="_blank">
-                github.com/fajaarrrs
+            <a href="https://github.com/fajaarrrs" target="_blank" class="contact-link">
+                <i class="fab fa-github"></i> GitHub Profile
             </a>
-        </p>
-    </div>
-</section>
+        </div>
+    </section>
+</main>
 
 <footer>
-    <p>© 2026 Muhammad Fajar Siddiq</p>
+    <p>© 2026 Muhammad Fajar Siddiq • Made with <i class="fas fa-heart" style="color: #ef4444;"></i></p>
 </footer>
 
 </body>
